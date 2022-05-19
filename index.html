@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link src="calc.js">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Calculator app</title>
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator__display">0</div>
+
+            <div class="calculator__keys">
+                <button class="key--operator" data-action="add">+</button>
+                <button class="key--operator" data-action="subtract">-</button>
+                <button class="key--operator" data-action="multiply">*</button>
+                <button class="key--operator" data-action="divide">÷</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>0</button>
+                <button data-action="decimal">.</button>
+                <button data-action="clear">AC</button>
+                <button class="key--equal" data-action="calculate">=</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Rachael Muthoni</a>.
+        </div>
+    </footer>
+
+</body>
+
+</html>
